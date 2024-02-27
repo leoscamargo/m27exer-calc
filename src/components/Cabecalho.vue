@@ -1,11 +1,8 @@
-<script setup>
-    const props = defineProps(['tarefasPendentes'])
-</script>
 <template>
     <header class="p-5 mb-4 mt-4 bg-light rounded-3">
-        <h1>Minhas Tarefas</h1>
+        <h1>Calculadora Aritmética</h1>
         <p>
-            Você possui {{ props.tarefasPendentes }} tarefa(s) pendentes.
+            Insira os números e escolha o tipo da operação.
         </p>
     </header>
 </template>
