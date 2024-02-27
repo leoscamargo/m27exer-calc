@@ -34,7 +34,7 @@ export default {
     <form>
         <div class="row">
             <div class="col">
-                <input v-model="num1" @input="calcula" required type="text" placeholder="Digite o número 1"
+                <input v-model="num1" @input="calcula" required type="text" placeholder="Digite o primeiro número"
                     class="form-control">
             </div>
             <div class="col-md-2">
@@ -49,7 +49,7 @@ export default {
                 </select>
             </div>
             <div class="col">
-                <input v-model="num2" @input="calcula" required type="text" placeholder="Digite o número 2"
+                <input v-model="num2" @input="calcula" required type="text" placeholder="Digite o segundo número"
                     class="form-control">
                 </div>
             <h5 class="mt-5">Resultado: {{ resultado }}</h5>
